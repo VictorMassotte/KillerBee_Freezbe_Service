@@ -1,6 +1,4 @@
 FROM node
-WORKDIR /api/v1/freezbe
-COPY package*.json ./
 RUN  npm install
 COPY . .
 EXPOSE 3000
